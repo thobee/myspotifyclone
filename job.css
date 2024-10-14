@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg {
+    background-image: url(jobz02.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.logo img {
+    width: 140px;
+    padding-left: 25px;
+}
+nav {
+    display: flex;
+    padding-top: 20px;
+    color: white;
+    justify-content: space-between;
+}
+.mid {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.alljob h2 {
+    font-size: 18px;
+}
+.sec-mid {
+    width: 100%;
+    height: 70vh;
+    /* background-color: cadetblue; */
+    display: flex;
+    position: sticky;
+}
+.right1 {
+    padding-top: 100px;
+    width: 50%;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+.marque {
+    width: 50%;
+    height: 500px;
+    /* background-color: lightgreen; */
+}
+.right1 h1 {
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: 550;
+}
+.explore {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    color: black;   
+    text-align: center;
+    padding-top: 15px;
+}
+.right1 {
+    padding-left: 80px;
+}
+.diva {
+    width: 40%;
+    height: 130px;
+    background-color: purple;
+    border-radius: 30px;
+}
+.marque {
+    width: 50%;
+    height: 500px;
+    /* padding-left: 50px; */
+}
+marquee {
+    width: 100%;
+    height: 500px;
+    
+}
+.divaa {
+    width: 40%;
+    height: 130px;
+    background-color: purple;
+    border-radius: 30px;
+    margin-left: 250px;
+    margin-top: 40px;
+    
+}
+.divss {
+    width: 40%;
+    height: 130px;
+    background-color: purple;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.divaas {
+    width: 40%;
+    height: 130px;
+    background-color: purple;
+    border-radius: 30px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.divbox {
+    width: 40%;
+    height: 130px;
+    background-color: purple;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.input-txt {
+    width: 80%;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+
+}
+.input1 {
+    width: 90%;
+    height: 90px;
+    border-radius: 50px;
+
+    
+}
+.input-txt span {
+    font-size: 40px;
+    padding-right: 40px;
+}
+.arrow span {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 50px;
+    padding-left: 2px;
+    padding-top: 6px;
+}
+.input1::placeholder {
+    font-size: 25px;
+    color: black;
+
+}
+.card-page {
+    width: 100%;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+.card-1{
+    width: 100%;
+    height: 85vh;
+    position: sticky;
+    top: 0;
+    background-color: blanchedalmond;
+    color: black;
+}
+.card-2{
+    width: 100%;
+    height: 60vh;
+    position: sticky;
+    top: 80px;
+    background-color: rebeccapurple;
+    color: black;
+}
+.card-3{
+    width: 100%;
+    height: 60vh;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    color: black;
+}
+.card_content{
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    font-size: 30px;
+    font-weight: 300;
+}
+.card_content .material-symbols-outlined {
+    font-size: 40px;
+}
+.card-container {
+    width: 100%;
+    height: 100vh;
+    background-color: steelblue;
+    display: flex;
+}
+.right-image {
+    width: 50%;
+}
+.right-image img {
+    width: 70%;
+    border-radius: 10%;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.left-text {
+    width: 50%;
+    padding-top: 100px;
+}
+.left-text h3{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-text p {
+    font-size: 25px;
+    font-weight: 200;
+    width: 80%;
+}
+.buttondiv {
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 30px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
